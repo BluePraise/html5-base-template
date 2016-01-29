@@ -11,14 +11,23 @@ Daarnaast gebruik Gulp voor de automatisatie van taken, voornamelijk voor preen.
 
 CSS
 |---- styles.css
+
 |---- normalize.min.css
+
 IMG
+
 JS
+
 |---- main.js
+
 	|---- VENDOR
+
 			|---- jquery.min.js
+
 			|---- jquery.min.map
+
 			|---- modernizr-*.min.js
+			
 
 
 ## versie 0 van mijn template
