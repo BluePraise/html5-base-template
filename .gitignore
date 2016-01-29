@@ -4,3 +4,4 @@ css/*.min.css
 sass/.sass-cache/
 
 index-.html
+bower_components/
