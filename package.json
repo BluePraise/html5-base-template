@@ -1,0 +1,19 @@
+{
+  "name": "my-base-gulp",
+  "version": "1.0.0",
+  "description": "A small gulp helper for preening",
+  "main": "gulpfile.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "gulp": "3.9.0",
+    "gulp-notify": "2.2.0",
+    "gulp-plumber": "1.0.1",
+    "gulp-util": "3.0.6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Magalie Chetrit",
+  "license": "ISC"
+}
