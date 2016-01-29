@@ -20,14 +20,14 @@ JS
 
 |---- main.js
 
-	|---- VENDOR
+	VENDOR
 
 			|---- jquery.min.js
 
 			|---- jquery.min.map
 
 			|---- modernizr-*.min.js
-			
+
 
 
 ## versie 0 van mijn template
