@@ -40,6 +40,7 @@ Bevat kale HTML, Sass, JS bestanden.
 
 * Nunjucks templates
 * Gulp renders nunjucks
+* Added bootstrap javascript (branch: [bootstrap]())
 
 
 # TO-DO 
