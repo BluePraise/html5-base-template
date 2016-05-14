@@ -41,6 +41,7 @@ Bevat kale HTML, Sass, JS bestanden.
 * Bootstrap version added. Branch: [Bootstrap](https://github.com/BluePraise/html5-base-template/tree/bootstrap)
 * Sass variables.scss susy default settings toegevoegd
 * json file fixed
+* back-to-top added to main.js and sass
 
 
 # TO-DO 
