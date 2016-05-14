@@ -1,1 +1,107 @@
 $main-brand-color : ;
+
+// font-family: 'Merriweather', 'Palatino', serif;
+
+// COLORS
+
+// The basics
+$black              : #000;
+$white              : #fff;
+$grey               : rgba(0,0,0,1);
+$greydark           : rgb(119, 119, 119); 
+
+$alertColor         : #e70000;
+$successColor       : #78af01;
+$highlightColor     : #7DD7EF;
+$activeColor        : rgb(208, 234, 255); //babyblue
+
+// Site custom colors
+
+//VVD style
+$vvdorange          : #FF7609;
+$vvdblauw           : #0D1D6F;
+
+
+// Ans style
+// $orangelight        : #FFB880;
+$pink               : #FF75BE;
+    
+$mainColor          : $grey;
+$primaryColor       : $vvdblauw;
+$secondaryColor     : $pink;
+
+
+$textColor          : $mainColor;
+$headercolor        : $primaryColor;
+
+// Links and Buttons, incl states
+$link               : $secondaryColor;
+$link-active-state  : $secondaryColor;
+$link-hover-state   : $secondaryColor; 
+$link-visited-state : $secondaryColor;
+$link-focus-state   : $secondaryColor;
+
+$selection-bg       : $secondaryColor;
+$selection          : $vvdblauw;
+
+
+// Standard colors: for standard 4K and other brand colors.
+// Note: these are just for reference, and some brands have multiple colors.
+$color-facebook : #3B5998;
+$color-twitter  : #33CCFF;
+$color-youtube  : #FF3333;
+$color-pinterest: #990000;
+$color-skype    : #12A5F4;
+$color-flickr   : #FE0883;
+$color-foursquare: #8FD400;
+$color-instagram: #4E433C;
+$color-linkedin : #4875B4;
+$color-tumblr   : #2B4964;
+$color-vimeo    : #86B32D;
+$color-google   : #D6492C;
+$color-fk       : #66B360;
+
+// Table colors.
+$thead          : #4479b1;
+$tbody          : #d5dde7;
+
+// Misc Variables
+// -------------------------------------------------
+
+// Form
+$btn-border-radius:    0 !default;
+$input-border-radius:  0 !default;
+
+$frmel-hover-color  : rgb(228, 228, 228);
+
+$border-color       : #DDDDDD;
+
+// Default Susy Settings
+$susy: (
+  flow: ltr,
+  math: fluid,
+  output: float,
+  gutter-position: split,
+  container: auto,
+  container-position: 20px,
+  columns: 12,
+  gutters: 1/10,
+  column-width: false,
+  global-box-sizing: "border-box",
+  last-flow: to,
+  debug: (
+    image: show,
+    color: rgba(#66f, .25),
+    output: background,
+    toggle: bottom right,
+  ),
+  use-custom: (
+    background-image: true,
+    background-options: false,
+    box-sizing: true,
+    clearfix: true,
+    rem: true,
+  )
+);
+
+@include border-box-sizing;

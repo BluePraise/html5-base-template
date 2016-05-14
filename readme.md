@@ -39,6 +39,7 @@ Bevat kale HTML, Sass, JS bestanden.
 * Nunjucks templates
 * Gulp renders nunjucks
 * Bootstrap version added. Branch: [Bootstrap](https://github.com/BluePraise/html5-base-template/tree/bootstrap)
+* Sass variables.scss susy default settings toegevoegd
 
 
 # TO-DO 
