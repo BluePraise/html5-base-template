@@ -1,9 +1,10 @@
 'use strict';
-var gulp         = require('gulp');
-var gutil        = require('gulp-util');
-var notify       = require('gulp-notify');
-var plumber      = require('gulp-plumber');
-
+var gulp            = require('gulp');
+var gutil           = require('gulp-util');
+var notify          = require('gulp-notify');
+var plumber         = require('gulp-plumber');
+var nunjucksRender  = require('gulp-nunjucks-render');
+var data            = require('gulp-data');
 ////////////////////
 // Project start
 ////////////////////
@@ -21,6 +22,27 @@ gulp.task('verplaats', function () {
     gulp.src(['bower_components/jquery/dist/jquery.min.js', 'bower_components/jquery/dist/jquery.min.map'])
         .pipe(gulp.dest('js/vendor'))
         .pipe( notify({ message: 'jQuery bestanden zijn verplaatst', onLast: true}) );
+});
+
+///////////////////////////////
+// Nunjuck templating
+//////////////////////////////
+
+//http://zellwk.com/blog/nunjucks-with-gulp/
+gulp.task('njk', function() {
+    nunjucksRender.nunjucks.configure(['templates/']);
+    return gulp.src('pages/*.+(html|njk)')
+    .pipe(data(function( file ) {
+        return require('./templates/magalielinda.json')
+    } )) 
+    .pipe(nunjucksRender())
+    .pipe(gulp.dest('.'))
+        // .pipe(gulp.dest('js'))
+    .pipe( notify({ message: 'nunjucks is klaar', onLast: true}) )
+});
+
+gulp.task('default', function() {
+    gulp.watch('templates/**/*.+(html|njk)', ['njk']);
 });
 
 //////////////////////////////////

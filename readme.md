@@ -36,8 +36,10 @@ Bevat kale HTML, Sass, JS bestanden.
 ## Bower
 
 ## versie A1
+=========
 
-* Nunjucks templating
+* Nunjucks templates
+* Gulp renders nunjucks
 
 
 # TO-DO 
