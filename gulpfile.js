@@ -33,7 +33,7 @@ gulp.task('njk', function() {
     nunjucksRender.nunjucks.configure(['templates/']);
     return gulp.src('pages/*.+(html|njk)')
     .pipe(data(function( file ) {
-        return require('./templates/magalielinda.json')
+        return require('./templates/data.json')
     } )) 
     .pipe(nunjucksRender())
     .pipe(gulp.dest('.'))
