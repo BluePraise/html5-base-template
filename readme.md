@@ -35,10 +35,13 @@ Bevat kale HTML, Sass, JS bestanden.
 
 ## Bower
 
-**versie 1**
-Heeft laatste versies van:
-* jQuery
-* SusyTwo
-* BreakPoint-Sass
+## versie A1
 
+* Nunjucks templating
+
+
+# TO-DO 
+=========
+
+[ ] Dynamisch maken van site title
 
