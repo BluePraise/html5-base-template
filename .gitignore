@@ -7,3 +7,4 @@ bower_components/
 node_modules
 .codekit-cache
 fonts/font-awesome
+.DS_Store
