@@ -28,8 +28,6 @@ JS
 
 			|---- modernizr-*.min.js
 
-
-
 ## versie 0 van mijn template
 Bevat kale HTML, Sass, JS bestanden. 
 
@@ -40,6 +38,7 @@ Bevat kale HTML, Sass, JS bestanden.
 
 * Nunjucks templates
 * Gulp renders nunjucks
+* Bootstrap version added. Branch: [Bootstrap](https://github.com/BluePraise/html5-base-template/tree/bootstrap)
 
 
 # TO-DO 
