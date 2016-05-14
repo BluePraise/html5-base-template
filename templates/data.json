@@ -1,6 +1,7 @@
 {
-	"item": {
-		"id": "1",
-		"name": ""
-	}
+	"sitesettings": [{ 
+		"sitetitle": "TEMPLATE",
+		"sitename": "TEMPLATE",
+		"sitedescription": "TEMPLATE"
+	}]
 }

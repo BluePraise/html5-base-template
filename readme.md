@@ -42,6 +42,7 @@ Bevat kale HTML, Sass, JS bestanden.
 * Sass variables.scss susy default settings toegevoegd
 * json file fixed
 * back-to-top added to main.js and sass
+* header filled up and json adjusted
 
 
 # TO-DO 
