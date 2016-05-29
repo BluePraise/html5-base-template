@@ -12,13 +12,13 @@
     "tests"
   ],
   "dependencies": {
-    "breakpoint-sass": "2.6.1",
-    "susy": "~2.2.6"
+    "breakpoint-sass": "latest",
+    "susy": "latest"
   },
   "devDependencies": {
-    "breakpoint-sass": "~2.5.0",
-    "font-awesome": "fontawesome#~4.4.0",
-    "susy": "^2.2.12",
-    "jquery": "^2.2.0"
+    "breakpoint-sass": "latest",
+    "font-awesome": "fontawesome#latest",
+    "susy": "latest",
+    "jquery": "latest"
   }
 }
