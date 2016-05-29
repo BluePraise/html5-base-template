@@ -3,9 +3,11 @@
 
 @import "font-awesome/font-awesome";
 
-@import 'main/variables';
-@import 'main/base';
-@import 'main/main';
-@import 'main/header';
-@import 'main/hero';
-@import 'main/backtotop';
+@import "helpers/nthchild",
+
+@import "main/variables";
+@import "main/base";
+@import "main/main";
+@import "main/header";
+@import "main/hero";
+@import "main/backtotop";

@@ -32,6 +32,12 @@ JS
 Bevat kale HTML, Sass, JS bestanden. 
 
 ## Bower
+-
+## Gulp
+Verplaats bower bestanden met -Gulp Verplaats-
+Ik gebruik codekit voor het compilen van Sass.
+
+
 
 ## versie A1
 =========
@@ -44,6 +50,7 @@ Bevat kale HTML, Sass, JS bestanden.
 * back-to-top added to main.js and sass
 * header filled up and json adjusted
 
+* [nthchild helper](http://lukyvj.github.io/family.scss/) added 
 
 # TO-DO 
 =========

@@ -3,3 +3,9 @@ h1, h2 {
     color: $primaryColor;
     line-height: 1;
 }
+
+a {
+	&.fa {
+		text-decoration: none;
+	}
+}
