@@ -1,9 +1,8 @@
 @import "../bower_components/susy/sass/susy";
 @import "../bower_components/breakpoint-sass/stylesheets/breakpoint";
 
-@import "font-awesome/font-awesome";
-
-@import "helpers/nthchild",
+@import "helpers/nthchild";
+@import "helpers/animate/animate";
 
 @import "main/variables";
 @import "main/base";
